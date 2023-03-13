@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+  height: 182px;
+  max-width: auto;
+  padding-top: 71px;
+}
+
+.header-navigation{
+    width: 700px;
+    height: 19px;
+    margin: 0px;
+}
+
+.header-item:not(first-child) {
+    margin-left: 100px;
+}
+
+.header-link{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #7D7D7D;
+}
+
+
+main{
+    max-width: auto;
+    height: 1998px;
+}
+
+.main-list{
+    width: 905px;
+    margin: 0 auto;
+}
+
+.main-list li{
+    width: 420px;
+}
+
+
+.main-list li>p:nth-of-type(1) {
+    margin-top: 62px;
+}
+
+
+.main-list h3 {
+    margin: 32px;
+}
+
+
+.main-list li p:nth-last-of-type(1){
+    margin-top: 40px;
+}
+
+
+img{
+    width: 420px;
+    height: 200px ;
+}
+
+.main-list li:nth-last-of-type(even){
+    margin-top: 65px;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #626262;
+}
+
+.main-list p {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #626262;
+margin-bottom: 62px;
+}
+
+
+button{
+    border: 1px solid ;
+    background: none;
+    width: 165px;
+    height: 60px;
+    color: #626262;
+    display: block;
+    margin: 0 auto;
+}
